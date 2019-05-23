@@ -1,0 +1,34 @@
+###This file describes how I imagine or want the tool/application to be###
+
+Recap:	The end-product must sort out the music needs.
+
+Setting the nature of the end-product:
+--> Portable
+--> No DB usage
+--> Could use online Libraries
+--> Analyse the specified folders
+
+Target end-product:
+Let the end-product be a tool at the Web end.
+
+Requirements Initial Phase:
+As it is a Web tool, we need a Server to host it. ---->Design and Define the server.
+As it is a Web tool, we need an appropriate UI that sits alongwith in the server. ---->Design and Define the UI stack.
+As it is a Web tool, we have to analyse and structure how an Audio file is to be read. ---->Design and Define the Audio processing Unit
+For the product, we must understand on how the audio could be graphed or categorised. ---->Design and Define the method of Categorisation
+
+Technologies to be used:
+1. Java as the main backend language and Engine.
+2. Apache Tomcat server.
+3. Angular front-end UI.
+
+What are the facts we do not know on how to proceed with..
+1. How is an Audio file read and realised?
+2. What are the default categories and are we going to allow the user to add categories, if so how?
+
+Visualization:
+As the server starts, the services would be running. Health check of the destination directory and its summary to be displayed.
+Once the user submits the settings, the services arranges things from source to destination.
+After all that, a final scan is made ensuring right arrangement.
+Then, even if we change or move the files manually.
+The service detects it and automatically re-aligns it according to the setting.
